@@ -1,3 +1,4 @@
+console.log("Hello World");
 const fs = require("fs/promises");
 const express = require("express");
 const cors = require("cors");
@@ -7,7 +8,7 @@ const { v4: uuid } = require("uuid");
 const app = express();
 
 app.use(express.json());
-app.use(express.cors());
+app.use(cors());
 
 app.get("/outfit", (req, res) => {
 	const tops = ["Black", "White", "Orange", "Navy"];

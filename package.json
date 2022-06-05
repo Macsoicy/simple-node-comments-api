@@ -1,7 +1,6 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -14,5 +13,14 @@
     "express": "^4.18.1",
     "lodash": "^4.17.21",
     "uuid": "^8.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macsoicy/simple-node-comments-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Macsoicy/simple-node-comments-api/issues"
+  },
+  "homepage": "https://github.com/Macsoicy/simple-node-comments-api#readme",
+  "description": ""
 }
