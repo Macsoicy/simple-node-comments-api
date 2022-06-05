@@ -1,4 +1,5 @@
 console.log("Hello World");
+console.log(Timer);
 const fs = require("fs/promises");
 const express = require("express");
 const cors = require("cors");

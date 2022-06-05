@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Russo+One&family=VT323&display=swap');
+
+body{
+  text-align: center;
+  background-color: rgb(0, 49, 114);
+  text-shadow: 1em;
+  padding: 50px;
+  font-family: VT323;
+}
+.Enter{
+  color:whitesmoke;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: x-large;
+  padding: 12px;
+  height: 50px;
+}
